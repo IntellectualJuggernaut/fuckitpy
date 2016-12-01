@@ -11,7 +11,7 @@ long_description = read('README.md')
 
 setup(
     name='fuckit',
-    version='1.0.0',
+    version='4.8.0',
     py_modules=['fuckit'],
     url='https://github.com/ajalt/fuckitpy',
     license='WTFPL',
@@ -23,7 +23,8 @@ setup(
     platforms='any',
     test_suite='nose.collector',
     classifiers = [
-        'Programming Language :: Python :: 2 :: Only',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3',
         'Development Status :: 4 - Beta',
         'Natural Language :: English',
         'Environment :: Console',
